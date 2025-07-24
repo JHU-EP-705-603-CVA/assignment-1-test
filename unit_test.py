@@ -5,7 +5,7 @@ import os
 import tempfile
 import numpy as np
 from unittest.mock import patch, mock_open
-from modules.data.raw_data_handler import RawDataHandler  # Assuming the class is saved in raw_data_handler.py
+from securebank.modules.data.raw_data_handler import RawDataHandler  # Assuming the class is saved in raw_data_handler.py
  
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)

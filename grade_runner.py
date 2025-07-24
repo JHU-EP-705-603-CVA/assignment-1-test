@@ -5,13 +5,13 @@ import unittest
 import site
 
 # Step 1: Install requirements using the correct Python executable
-
 # ✅ Step 2: Make sure user-installed packages are visible
 sys.path.append(site.getusersitepackages())
 
 # Step 3: Add the test directory to the import path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "securebank"))
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "securebank/data_sources"))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../"))
+# sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../securebank"))
+# sys.path.insert(0, os.path.join(os.path.dirname(__file__), "../securebank/data_sources"))
 
 # -----------------------------
 # Step 3: Run a Specific Unit Test
